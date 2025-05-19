@@ -1,0 +1,15 @@
+echo "Hello world"
+
+MyName="youngi"
+MyNumber="010-7127-4914"
+MyAddr="Korea"
+
+echo $MyName $MyNumber
+
+# cmd a1 a2 a3
+# $$  S1 S2 S3
+
+echo "Command : " $$
+echo "factor 1 : " $1
+echo "factor 2 : " $2
+echo "factor 3 : " $3
